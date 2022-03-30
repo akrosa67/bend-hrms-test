@@ -1,0 +1,48 @@
+{
+  "name": "zgworklife-server",
+  "version": "1.0.0",
+  "description": "zgworklife API service for business",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "bitbucket",
+    "url": "bitbucket+https://bitbucket.org/mequalstechnologies/zg_worklife_api/src/master/"
+  },
+  "keywords": [
+    "zgworklife"
+  ],
+  "author": "mequals technology",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.com"
+  },
+  "homepage": "https://bitbucket.com",
+  "dependencies": {
+    "async": "^3.2.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.15",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "path": "^0.12.7",
+    "twilio": "^3.73.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
+  }
+}
