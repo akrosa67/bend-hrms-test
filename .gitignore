@@ -19,7 +19,7 @@ uploads/
 # Package files
 *.jar
 *.env
-*Package-lock.json
+Package-lock.json
 
 # Maven
 target/
